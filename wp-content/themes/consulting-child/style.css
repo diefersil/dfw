@@ -1,0 +1,154 @@
+/*
+    Template: consulting
+    Theme Name: Consulting Child Theme
+    Theme URI: http://consulting.stylemixthemes.com/
+    Author: StylemixThemes
+    Author URI: http://stylemixthemes.com/
+    Description: Consulting - Business and Finance WordPress theme. Using Consluting you can easily create a modern website with real content. Easily edit the real content and compose the page layout with drag & drop page builder Consulting is the best ever finance, consulting, brokerage WordPress theme. It’s fully Responsive and Easy to Customize using intuitive Drag & Drop Visual Composer and Theme Options panel in WordPress Customizer.
+    Version: 4.0.2
+    License: GNU General Public License v2 or later
+    License URI: http://www.gnu.org/licenses/gpl-2.0.html
+    Tags: blue, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, fixed-layout, fluid-layout, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, sticky-post, translation-ready
+    Text Domain: consulting-child-theme
+*/
+
+/*Geral*/
+
+
+
+/*.stm-header__row {
+    display: none !important;
+}*/
+
+
+.stm-logo img {
+    max-width: 140px !important;
+    height: auto;
+    margin-top: 10px;
+}
+
+.page-id-1071 #main{
+    padding: 0 0 15px !important;
+}
+
+
+
+/*Header*/
+.stm-header .stm-logo img {
+    margin-top: 15px !important;
+    margin-right: 70px !important;
+    max-width: 170px !important;
+}
+
+.stm-header .stm_mobile__logo img {
+    margin-top: 15px !important;
+    margin-right: auto !important;
+    max-width: 140px !important;
+}
+
+@media (max-width: 600px) {
+    .stm-iconbox {
+        margin-bottom: 30px !important;
+    }
+}
+
+/*Menu Mobile*/
+/*@media (max-width: 1023px){
+    .stm-header {
+        left: -350px !important;
+    }
+}
+
+@media (max-width: 1023px){
+    .stm-header, .stm_header_transparent .stm-header {
+        width: 320px !important;
+    }
+}*/
+
+/*Slider*/
+
+.slider .elementor-column-gap-default > .elementor-column > .elementor-element-populated {
+    padding: 0 !important;
+}
+
+/*Lab em Dias*/
+.h1:after, .h2:after, .h3:after, .h4:after, .h5:after, .h6:after, h1:after, h2:after, h3:after, h4:after, h5:after, h6:after {
+    display: none !important;
+}
+
+.ld{
+    color: #7E0E0D;
+    margin-top: 3px;
+}
+
+/*Botao submit formulario*/
+
+input[type=submit]{
+    max-width: 170px !important;
+    text-align:center;
+    background: #7E0E0D !important;
+    color: white !important;
+    border-radius: 10px;
+    margin: 20px 0 0 0;
+}
+
+input[type=submit]:hover{
+    box-shadow:2px 2px 2px gray;
+}
+
+/*Titulos paginas internas*/
+
+.page_title h1, 
+.page_title h2:after,
+.page_title span {
+    color: #7E0E0D !important;
+}
+
+.page-id-558 .page_title h1, 
+.page-id-558 .page_title h2:after,
+.page-id-558 .page_title span {
+    color: white !important;
+}
+
+/**/
+
+.icon_box.style_3 .icon.border-color_third i {
+    border-color: #7E0E0D !important;
+    color: #7E0E0D !important;
+}
+
+/*Footer*/
+
+/*Desativar Footer na pagina de contato*/
+/.copyright_row #footer .widgets_row {
+    display: none !important;
+}
+
+.page-id-1478 #footer .widgets_row{
+    display: none !important;
+}
+
+#footer .widgets_row {
+    background-color:#F2F2F2 !important;
+}
+
+.page-id-1071 #footer .widgets_row, 
+.page-id-1503 #footer .widgets_row {
+    background-color: white !important;;
+}
+
+#footer .copyright_row {
+    background-color: gray !important;
+}
+
+
+/*Ícones*/
+
+/*@media(max-width:600px){
+    .elementor-icon i, .elementor-icon svg {
+        width: 1em;
+        height: 1em;
+        position: relative;
+        display: inline !important;
+    }
+}*/

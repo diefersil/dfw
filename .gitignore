@@ -1,0 +1,24 @@
+_trash/
+_create/
+_backup/
+*.txt
+*.docx
+.github/workflows/develop.yml
+*.sql
+*.zip
+/wp-content/updraft/
+/wp-content/cache/
+
+# Configuration
+wp-config.php
+
+# Uploads
+/wp-content/uploads/
+
+# Log files
+*.log
+
+# htaccess
+/.htaccess
+
+# End of https://www.toptal.com/developers/gitignore/api/wordpress
