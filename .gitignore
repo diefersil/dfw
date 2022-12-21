@@ -4,6 +4,7 @@ _backup/
 *.txt
 *.docx
 .github/workflows/develop.yml
+.github/workflows/main.yml
 *.sql
 *.zip
 /wp-content/updraft/
